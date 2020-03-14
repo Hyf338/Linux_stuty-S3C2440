@@ -1,7 +1,7 @@
 # Linux_study-S3c2440
 ##目录框图
 
-![Linux_study-S3c2440目录框图]("\docs\pictures\doc_list.jpg")
+![Linux_study-S3c2440目录框图]("\docs\pictures\doc_list.png")
 
 ## code
 
