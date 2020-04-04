@@ -1,0 +1,32 @@
+
+对文件或目录的简要说明：
+Development_util_ok：解压后的做好的yaffs源码
+
+busybox-1.7.0.tar.bz2：未经修改的busybox-1.7.0源码
+
+busybox-1.7.0_patched.tar.bz2 ：已经打过补丁的busybox-1.7.0源码，解决了busybox-1.7.0在ubuntu 16.04编译不通过的问题
+
+linux-2.6.22.6.tar.bz2：未经修改的linux-2.6.22.6源码，在12期衔接和2期里用到
+
+linux-2.6.22.6_jz2440_v1.patch：支持jz2440v1的linux-2.6.22.6补丁
+
+linux-2.6.22.6_jz2440_v2v3.patch：jz2440最新补丁，解决无法在ubuntu16.04编译的问题
+
+linux-3.4.2.tar.bz2：未经修改的linux-3.4.2源码，在毕业班课程和3期里用到
+
+linux-3.4.2_100ask.patch：支持JZ2440的linux-3.4.2补丁
+
+u-boot-1.1.6.tar.bz2：未经修改的u-boot-1.1.6源码
+
+u-boot-1.1.6_jz2440.patch: 支持JZ2440的u-boot-1.1.6补丁
+
+u-boot-2012.04.01.tar.bz2：未经修改的u-boot-2012.04.01源码，在毕业班课程用到
+
+u-boot-2012.04.01_100ask.patch：支持JZ2440的u-boot-2012.04.01补丁，在毕业班课程用到
+
+yaffs_source.tar.gz：未经修改的yaffs源码
+
+yaffs_source_util_larger_small_page_nand.tar.bz2：已经做好的yaffs源码压缩包，支持jz2440
+
+yaffs_util_mkyaffsimage.patch：yaffs源码包补丁，支持JZ2440
+
