@@ -1,0 +1,10 @@
+target remote 127.0.0.1:3333
+monitor halt
+monitor arm mcr 15 0 1 0 0 0
+monitor step 0
+
+echo Configuring system...\n
+monitor load_image /work/eclipse_projects/6410/init/init.bin 0x0c000000
+monitor resume 0x0c000000
+monitor halt
+monitor wait_halt

@@ -1,0 +1,7 @@
+target remote localhost:3333
+monitor halt
+monitor arm mcr 15 0 1 0 0 0
+monitor step 0
+load
+break main
+continue
